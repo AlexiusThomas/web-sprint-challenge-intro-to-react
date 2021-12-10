@@ -79,6 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React JS is a UI library, thought of as the View in MVC (Model View Controller). It solves the problem of having multiple files to make a webpage, e.g. html, css, js, and simply combine that into one js file where we can style and manipulate html all from the js file. Some of related concepts include the Virtual DOM, where React compares what is on the DOM vs in the code, then renders the update to the DOM, and JSX, a simple Javascript that processes HTML syntax into JS. 
+
 1. Describe component state.
+
+Component state is JS object that describes the state of a particular component at the beginning and that can be changed and managed within the component, similar to variables that are declared within a function. We use useState hooks to set its initial value, then use setState to change/update it. 
+
 1. Describe props.
+
+Props are JS objects that serve as properties of a component that can be passed from one to another component so that they can be accessed by other components. They can be in the form of data such as an array, and can be bind with the dot notation.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are like side events that also take place when a particular event or activity is triggered. They can be sync by using using the useEffect hooks along with the dependency array which may be empty if we just want the event to happen once, or which may be populated with dynamic variables so that effects are only triggered for those particular variables. It is similar to stopPropagation/preventDefault. There are effects that don’t require clean up, like making a network request, and effects that do require clean up, like subscription or setting interval or using eventListeners.
