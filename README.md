@@ -9,7 +9,7 @@ In your challenge this week, you will demonstrate your mastery of these skills b
 This is an individual assessment. All work must be your own. All projects will be submitted to Codegrade for automated review. You will also be given feedback by code reviewers. For more information on the review process [click here.](https://www.notion.so/bloomtech/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
 
 You are not allowed to collaborate during the sprint challenge.
-
+ 
 ## Project Set Up
 
 - [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
